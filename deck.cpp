@@ -137,7 +137,8 @@ class Deck{
                         while (swapped == 1){
                                 swapped = 0;
                                 for (int i = 0; i < d.size() - 1; i++){
-                                        if (d[i].get_value() > d[i + 1].get_value()){
+                                        int comp_val = d[i].compare(d[i+1]);
+                                        if (comp_val == 1){
                                                 swap(d[i], d[i + 1]);
                                                 swapped = 1;
                                         }
