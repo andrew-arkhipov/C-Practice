@@ -7,3 +7,4 @@ The following were written solely by myself, while the rest were provided by pro
   - `gaussian_elim.cpp`: solves a matrix equation using naive Gaussian elimination
   - `gaussElim.cpp`: performs PA = LU factorization on an n x n matrix, then solves the given matrix equation
   - `deck.cpp`: contains Card and Deck classes with sort, shuffle, and deal methods
+  - `gaussQuadrature.cpp`: performs 3-point Gaussian quadrature on a given integral (function are hardcoded)
